@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎉 Celebración Sorpresa </title>
+  <title>🎉 Celebración Sorpresa - Terminal</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <style>
     body {
@@ -33,6 +33,20 @@
     .box:hover {
       background-color: #161b22;
       transform: scale(1.01);
+    }
+    .warning {
+      background-color: #8b0000;
+      color: #ff5555;
+      border: 2px dashed #ff0000;
+      padding: 1rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { box-shadow: 0 0 10px red; }
+      50% { box-shadow: 0 0 20px red; }
+      100% { box-shadow: 0 0 10px red; }
     }
     .success {
       color: #1fdd1f;
@@ -79,7 +93,15 @@
     <p>📍 <span class="blue">Ubicación:</span> Las Casuarinas 7443, Colastiné Norte, Santa Fe</p>
 
     <p><span class="blue">// Motivo:</span> Celebramos que papá finalizó su especialización en sistemas embebidos 🧠</p>
-    <p><span class="blue">// Advertencia:</span> Es una sorpresa. Llegá con tiempo y sin spoilers 🤫</p>
+
+    <div class="warning">
+      🚨 ALERTA: ESTA ES UNA MISIÓN CLASIFICADA 🚨<br>
+      Por favor, NO arruines la sorpresa. Llega con tiempo y con discreción.<br>
+      Este mensaje se autodestruirá en tu conciencia si fallas. 🤖
+    </div>
+
+    <p><span class="blue">// Importante:</span> Cada invitado deberá traer lo que desee tomar 🍾 y contribuir con $7500 para ayudar con los costos de organización y comida. Podés transferir al alias <strong>distefano.clari</strong> 💸</p>
+    <p><span class="blue">// Confirmación:</span> Por favor completá el formulario antes del <strong>8 o 10 de junio</strong> ⬆️</p>
   </div>
 
   <p class="info">[INFO] Confirmá tu asistencia:</p>
